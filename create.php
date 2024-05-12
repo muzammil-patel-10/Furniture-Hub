@@ -1,9 +1,9 @@
 <?php
 $user="root";
-$pass="sadhana123";
+$pass="";
 $db="furniture";
 $host="localhost";
-$con=mysqli_connect($host,$user,$pass,$db,3308);
+$con=mysqli_connect('localhost','root','','furniture');
 if(!$con)
 echo "NOT CONNECTED";
 else
@@ -24,10 +24,8 @@ echo '<script>alert("EMAIL ID ALREADY EXIST KINDLY CHANGE AND SIGNUP AGAIN!!!");
 elseif($res3->num_rows!= 0)
 echo '<script>alert("MOBILE NUMBER ALREADY EXIST KINDLY CHANGE AND SIGNUP AGAIN!!!"); window.location.href = "create.html";</script>';
 $sql = "INSERT INTO user(uname,name,email,mob,addrs,pass,added_on) VALUES('$uname','$name','$email','$mob','$addrs','$pass','$added_on')";
-
 if(!mysqli_query($con,$sql))
 echo mysqli_error($con);
 else    
 echo '<script>alert("Signup Successfully !!!"); window.location.href = "index.php";</script>'; 
-
 ?>

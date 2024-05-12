@@ -32,14 +32,12 @@
 
                 <ul class="list-unstyled">
                     <li>
-                        <a href="customize.html">CUSTUMIZE PRODUCT ORDER</a>
+                        <a href="customize.html">CUSTOMIZE PRODUCT ORDER</a>
                     </li>
                     <li>
                         <a href="contactus.php">CONTACT US</a>
                     </li>
-                    <li>
-                        <a href="ourteam.html">OUR TEAM</a>
-                    </li>
+                   
                     <li>
                         <a href="admin/admin.php">ADMIN LOGIN</a>
                     </li>
@@ -55,7 +53,7 @@
                 <input type="text" class="btext" />
                 <input type="submit" value="go" class="bsub" />
                 <div class="clr"></div>
-                <div class="copyright">&copy;2021. All Rights Reserved.</div>
+                <div class="copyright">&copy;2022. All Rights Reserved.</div>
 
 
 </footer>

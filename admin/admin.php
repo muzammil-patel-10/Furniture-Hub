@@ -14,7 +14,7 @@ if(isset($_POST['login'])){
         header('location:categories.php');
         die();
     }else{
-     $msg='plesae enter valid Credentials';
+     $msg='Please Enter Valid Credentials';
     }
 }
 ?>

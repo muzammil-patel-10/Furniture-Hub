@@ -45,7 +45,7 @@ $cat_arr[]=$row;
             </div>
             
             <?php
-session_start();
+//session_start();
 if(isset($_SESSION['USER_LOGIN']))
 { ?>
     <a href="my_order.php"><button type="button" class="btn btn-success" style="float:right;margin-right=50px; margin-left:20px;">MY ORDERS</button></a>
@@ -55,7 +55,7 @@ if(isset($_SESSION['USER_LOGIN']))
 <?php  }
 else { ?>
             <a href="login.html"><button type="button" class="btn btn-success" style="float:right;margin-right=50px; margin-left:20px;">SIGN IN</button></a>
-<a href="create.html"><button type="button" class="btn btn-warning"style="float:right;margin-right=450px;" >CREATE ACCOUNT</button></a>
+            <a href="create.html"><button type="button" class="btn btn-warning"style="float:right;margin-right=450px;" >CREATE ACCOUNT</button></a>
 
 <?php } ?>
       
